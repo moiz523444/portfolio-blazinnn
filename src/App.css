@@ -17,12 +17,52 @@
 
 .Desktop_logoLink {
   pointer-events: auto;
-  font-family: var(--font-body);
-  font-weight: 500;
-  font-size: 1.15rem;
-  letter-spacing: -0.02em;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.22rem;
+  letter-spacing: -0.03em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
   color: var(--color-almost-black);
+  text-decoration: none;
+}
+
+.logo-badge {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--color-almost-black);
+  color: var(--color-white);
+  padding: 0.22rem 0.55rem;
+  border-radius: 6px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  font-family: var(--font-display);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s var(--ease-quad-out), background-color 0.3s ease;
+}
+
+.logo-badge-dot {
+  width: 4.5px;
+  height: 4.5px;
+  border-radius: 50%;
+  background-color: #ff4d00;
+  margin-left: 3px;
   display: inline-block;
+}
+
+.Desktop_logoLink:hover .logo-badge {
+  transform: scale(1.08) rotate(-3deg);
+  background-color: #000;
+}
+
+.logo-text {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.18rem;
+  letter-spacing: -0.03em;
+  color: var(--color-almost-black);
 }
 
 .Desktop_nav {

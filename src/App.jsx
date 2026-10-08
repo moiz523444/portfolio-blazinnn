@@ -221,7 +221,13 @@ export default function App() {
                 aria-label="Blazin Code Homepage"
                 data-cursor="link"
               >
-                <RollingText text="blazincode" />
+                <span className="logo-badge">
+                  <span>BC</span>
+                  <span className="logo-badge-dot"></span>
+                </span>
+                <span className="logo-text">
+                  <RollingText text="blazincode" />
+                </span>
               </a>
             </div>
             <div className="col-2 col-desktop-7 Desktop_nav">
