@@ -1,0 +1,70 @@
+.rolling-text-wrapper {
+  display: inline-flex;
+  overflow: hidden;
+  vertical-align: bottom;
+  position: relative;
+}
+
+.rolling-char-box {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  height: 1.25em;
+  line-height: 1.25em;
+}
+
+.rolling-char {
+  display: inline-block;
+  transition: transform 0.45s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-delay: calc(var(--char-index) * 22ms);
+  will-change: transform;
+}
+
+.rolling-char.secondary {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+/* Trigger roll on parent container hover or direct hover */
+a:hover .rolling-char-box .rolling-char.primary,
+button:hover .rolling-char-box .rolling-char.primary,
+.rolling-text-wrapper:hover .rolling-char-box .rolling-char.primary,
+.DashedLabel_labelWrapper:hover .rolling-char-box .rolling-char.primary,
+.HeroHeader_firstRow:hover .rolling-char-box .rolling-char.primary,
+.HeroHeader_secondRow:hover .rolling-char-box .rolling-char.primary,
+.HeroHeader_secondRowWrapper:hover .rolling-char-box .rolling-char.primary,
+.HeroHeader_paragraphWrapper:hover .rolling-char-box .rolling-char.primary,
+.Footer_title:hover .rolling-char-box .rolling-char.primary,
+.TextBlockStandard_section:hover .rolling-char-box .rolling-char.primary,
+h1:hover .rolling-char-box .rolling-char.primary,
+h2:hover .rolling-char-box .rolling-char.primary,
+h3:hover .rolling-char-box .rolling-char.primary,
+h4:hover .rolling-char-box .rolling-char.primary,
+p:hover .rolling-char-box .rolling-char.primary {
+  transform: translateY(-100%);
+}
+
+a:hover .rolling-char-box .rolling-char.secondary,
+button:hover .rolling-char-box .rolling-char.secondary,
+.rolling-text-wrapper:hover .rolling-char-box .rolling-char.secondary,
+.DashedLabel_labelWrapper:hover .rolling-char-box .rolling-char.secondary,
+.HeroHeader_firstRow:hover .rolling-char-box .rolling-char.secondary,
+.HeroHeader_secondRow:hover .rolling-char-box .rolling-char.secondary,
+.HeroHeader_secondRowWrapper:hover .rolling-char-box .rolling-char.secondary,
+.HeroHeader_paragraphWrapper:hover .rolling-char-box .rolling-char.secondary,
+.Footer_title:hover .rolling-char-box .rolling-char.secondary,
+.TextBlockStandard_section:hover .rolling-char-box .rolling-char.secondary,
+h1:hover .rolling-char-box .rolling-char.secondary,
+h2:hover .rolling-char-box .rolling-char.secondary,
+h3:hover .rolling-char-box .rolling-char.secondary,
+h4:hover .rolling-char-box .rolling-char.secondary,
+p:hover .rolling-char-box .rolling-char.secondary {
+  transform: translateY(-100%);
+}
+
+.rolling-space {
+  display: inline-block;
+  width: 0.25em;
+}
