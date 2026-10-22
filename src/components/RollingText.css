@@ -1,8 +1,11 @@
 .rolling-text-wrapper {
   display: inline-flex;
-  overflow: hidden;
+  flex-wrap: wrap;
+  overflow: visible;
   vertical-align: bottom;
   position: relative;
+  max-width: 100%;
+  word-break: break-word;
 }
 
 .rolling-char-box {

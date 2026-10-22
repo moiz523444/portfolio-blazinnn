@@ -52,6 +52,8 @@ export default function ProjectCard({ project }) {
   return (
     <a
       href={project.url || '#'}
+      target={project.url && project.url !== '#' ? '_blank' : undefined}
+      rel={project.url && project.url !== '#' ? 'noopener noreferrer' : undefined}
       ref={cardRef}
       className="CaseStudiesGrid_card"
       onMouseMove={handleMouseMove}

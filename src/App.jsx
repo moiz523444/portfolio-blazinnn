@@ -34,101 +34,92 @@ const ArrowIcon = () => (
 // High-resolution featured projects
 const CASE_STUDIES = [
   {
-    name: 'Cartier',
-    category: 'Luxury',
-    image:
-      'https://cdn.sanity.io/images/f3tpxs09/production/3ab4221c9b8bf2904c911fbf6507bcdf82ea0485-3200x1880.png?rect=190,0,2820,1880&w=1200&h=800&q=90&fit=max&auto=format',
-    url: '#',
+    name: 'Exergy3',
+    category: 'Clean Energy & Tech',
+    image: '/projects/exergy3.png',
+    url: 'https://www.exergy3.com/',
   },
   {
-    name: 'Cogent',
-    category: 'AI Technologies',
-    image:
-      'https://cdn.sanity.io/images/f3tpxs09/production/aca0e8d24a985421935c6622e07dd76523ef48ed-3200x1880.png?rect=190,0,2820,1880&w=1200&h=800&q=90&fit=max&auto=format',
-    url: '#',
+    name: 'Mojek Money',
+    category: 'Fin Tech & AI',
+    image: '/projects/mojek.png',
+    url: 'https://www.mojek.money/',
   },
   {
-    name: 'Multiply',
-    category: 'Business Solutions',
-    image:
-      'https://cdn.sanity.io/images/f3tpxs09/production/854d4efc50e6d7e41d2ed0fd24105aed4a17e8a9-3200x1880.png?rect=190,0,2820,1880&w=1200&h=800&q=90&fit=max&auto=format',
-    url: '#',
+    name: 'Elica',
+    category: 'Design & Kitchen Innovation',
+    image: '/projects/elica.png',
+    url: 'https://www.elica.com/',
   },
   {
-    name: 'Xtend Health',
-    category: 'Health Tech',
-    image:
-      'https://cdn.sanity.io/images/f3tpxs09/production/f8233033c7cf7d09802b888ec3a23c89068146e7-3200x1880.png?rect=190,0,2820,1880&w=1200&h=800&q=90&fit=max&auto=format',
-    url: '#',
+    name: 'Bathing Culture',
+    category: 'Ecommerce & Lifestyle',
+    image: '/projects/bathingculture.png',
+    url: 'https://bathingculture.com/',
   },
   {
-    name: 'Metanova',
-    category: 'Bio Tech',
-    image:
-      'https://cdn.sanity.io/images/f3tpxs09/production/53285e158ddd82c16477229a40a4286d303c460f-3200x1800.jpg?rect=250,0,2700,1800&w=1200&h=800&q=90&fit=max&auto=format',
-    url: '#',
+    name: 'Modify',
+    category: 'Architecture & Construction',
+    image: '/projects/modify.png',
+    url: 'https://www.modify.com.au/',
   },
   {
-    name: 'Sweeply',
-    category: 'Hospitality',
-    image:
-      'https://cdn.sanity.io/images/f3tpxs09/production/60f8722b4db600969c0e8625350320da50f28a09-3200x1880.png?rect=190,0,2820,1880&w=1200&h=800&q=90&fit=max&auto=format',
-    url: '#',
+    name: 'Ocelot Chocolate',
+    category: 'Artisanal Ecommerce & Food',
+    image: '/projects/ocelot.png',
+    url: 'https://www.ocelotchocolate.com/',
   },
   {
-    name: 'Breakthrough Energy',
-    category: 'Sustainability',
-    image:
-      'https://cdn.sanity.io/images/f3tpxs09/production/a1784068a26d209be1ff8988346a6b42fe7af0f9-3200x1880.png?rect=190,0,2820,1880&w=1200&h=800&q=90&fit=max&auto=format',
-    url: '#',
+    name: 'Lodg',
+    category: 'Business & Tax Finance',
+    image: '/projects/lodg.png',
+    url: 'https://www.lodg.co.nz/',
   },
   {
-    name: 'Tally',
-    category: 'Business Solutions',
-    image:
-      'https://cdn.sanity.io/images/f3tpxs09/production/2f97ee741ca8387c885bd9e0441ca701544874bb-1590x1058.png?rect=2,0,1587,1058&w=1200&h=800&q=90&fit=max&auto=format',
-    url: '#',
+    name: 'Fireball Finance',
+    category: 'Personal Wealth & FinTech',
+    image: '/projects/fireball.png',
+    url: 'https://www.fireball.finance/',
   },
   {
-    name: 'GOALS Game',
-    category: 'Gaming',
-    image:
-      'https://cdn.sanity.io/images/f3tpxs09/production/a725236272721157a1e6cc6e6c176c8ffe14d2e2-3200x1880.png?rect=190,0,2820,1880&w=1200&h=800&q=90&fit=max&auto=format',
-    url: '#',
+    name: 'Plasfy',
+    category: 'Design & Graphic Software',
+    image: '/projects/plasfy.png',
+    url: 'https://plasfy.com/',
   },
   {
-    name: 'Google Interland',
-    category: 'Education',
-    image:
-      'https://cdn.sanity.io/images/f3tpxs09/production/99c4e354db9d27f53c2ab55068573012694e71c4-1656x1104.jpg?w=1200&h=800&q=90&fit=max&auto=format',
-    url: '#',
+    name: 'Core 1',
+    category: 'eCommerce & Digital Studio',
+    image: '/projects/core1.png',
+    url: 'https://core1.co/',
   },
 ];
 
-// Archive Project List
+// Archive / Extended Selected Works
 const ARCHIVE_PROJECTS = [
-  { name: 'Ankra', category: 'Business Solutions' },
-  { name: 'JustFoodForDogs', category: 'Ecommerce' },
-  { name: 'Oyyo', category: 'Ecommerce' },
-  { name: 'Antler', category: 'Corporate Website' },
-  { name: 'Galxe', category: 'Fin Tech' },
-  { name: 'Myriad', category: 'Business Solutions' },
-  { name: 'Pluto', category: 'AR, VR, XR Tech' },
-  { name: 'Flipside', category: 'Fin Tech' },
-  { name: 'Axolot', category: 'Gaming' },
-  { name: 'Cyberhaven', category: 'Security Tech' },
-  { name: 'Blobmixer', category: 'Creative Tech' },
-  { name: 'Hatom', category: 'Fin Tech' },
+  { name: 'Exergy3', category: 'CleanTech & Thermal Storage', url: 'https://www.exergy3.com/' },
+  { name: 'Mojek Money', category: 'FinTech & AI Tracker', url: 'https://www.mojek.money/' },
+  { name: 'Elica Design', category: 'Smart Appliances & UX', url: 'https://www.elica.com/' },
+  { name: 'Bathing Culture', category: 'Headless Commerce', url: 'https://bathingculture.com/' },
+  { name: 'Modify Projects', category: 'Architectural Platform', url: 'https://www.modify.com.au/' },
+  { name: 'Ocelot Studio', category: 'Luxury Brand Experience', url: 'https://www.ocelotchocolate.com/' },
+  { name: 'Lodg Finance', category: 'SaaS Accounting Platform', url: 'https://www.lodg.co.nz/' },
+  { name: 'Fireball Web3', category: 'Financial Independence Engine', url: 'https://www.fireball.finance/' },
+  { name: 'Plasfy Suite', category: 'Cloud Graphic Design Suite', url: 'https://plasfy.com/' },
+  { name: 'Core 1 Agency', category: 'eCommerce Engineering', url: 'https://core1.co/' },
+  { name: 'Nexus AI Engine', category: 'Generative Interface & LLM', url: '#work' },
+  { name: 'Hyperion Cloud', category: 'Enterprise Web Platform', url: '#work' },
 ];
 
 const INTRO_CAROUSEL = [
-  { row1: 'Intelligent Products', row2: 'from vision to launch' },
-  { row1: 'Branded Experiences', row2: 'that grow your business' },
-  { row1: 'Strategic Innovation', row2: 'to unlock opportunities' },
+  { row1: 'High-Performance Web', row2: 'engineered for modern scale' },
+  { row1: 'Immersive Interfaces', row2: 'that elevate brand prestige' },
+  { row1: 'Next-Gen Products', row2: 'from concept to production' },
 ];
 
 export default function App() {
   const [carouselIndex, setCarouselIndex] = useState(0);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const heroTitleRef = useRef(null);
 
   // Initialize Lenis buttery smooth inertial scroll
@@ -177,18 +168,6 @@ export default function App() {
         ease: 'power3.out',
         delay: 0.35,
       });
-
-      // Video reel entrance
-      gsap.from('.FullscreenMedia_ratioWrapper', {
-        scale: 0.96,
-        opacity: 0,
-        duration: 1.4,
-        ease: 'power3.out',
-        scrollTrigger: {
-          trigger: '.FullscreenMedia_section',
-          start: 'top 85%',
-        },
-      });
     });
 
     return () => ctx.revert();
@@ -202,8 +181,10 @@ export default function App() {
     return () => clearInterval(timer);
   }, []);
 
+  const closeMobileMenu = () => setMobileMenuOpen(false);
+
   return (
-    <div className="page page-index">
+    <div className={`page page-index ${mobileMenuOpen ? 'menu-is-open' : ''}`}>
       {/* 1. Global Custom Fluid Cursor */}
       <CustomCursor />
 
@@ -213,24 +194,25 @@ export default function App() {
       {/* 3. Header & Navigation */}
       <header className="MenuNavigation_header">
         <div className="Container_container">
-          <div className="Grid_row">
-            <div className="col-2 col-desktop-5">
-              <a
-                href="/"
-                className="Desktop_logoLink"
-                aria-label="Blazin Code Homepage"
-                data-cursor="link"
-              >
-                <span className="logo-badge">
-                  <span>BC</span>
-                  <span className="logo-badge-dot"></span>
-                </span>
-                <span className="logo-text">
-                  <RollingText text="blazincode" />
-                </span>
-              </a>
-            </div>
-            <div className="col-2 col-desktop-7 Desktop_nav">
+          <div className="Header_inner">
+            <a
+              href="/"
+              className="Desktop_logoLink"
+              aria-label="Blazin Code Homepage"
+              data-cursor="link"
+              onClick={closeMobileMenu}
+            >
+              <span className="logo-badge">
+                <span>BC</span>
+                <span className="logo-badge-dot"></span>
+              </span>
+              <span className="logo-text">
+                <RollingText text="blazincode" />
+              </span>
+            </a>
+
+            {/* Desktop Navigation */}
+            <nav className="Desktop_nav">
               <ul className="Desktop_list">
                 <li>
                   <a className="Desktop_link is-active" href="#work" data-cursor="link">
@@ -248,21 +230,58 @@ export default function App() {
                   </a>
                 </li>
                 <li>
-                  <a className="Desktop_link" href="#journal" data-cursor="link">
-                    <RollingText text="JOURNAL" />
-                  </a>
-                </li>
-                <li>
-                  <a className="Desktop_link" href="#ai" data-cursor="link">
-                    <RollingText text="AI" />
-                  </a>
-                </li>
-                <li>
                   <a className="Desktop_link" href="#contact" data-cursor="link">
                     <RollingText text="CONTACT" />
                   </a>
                 </li>
               </ul>
+            </nav>
+
+            {/* Mobile Hamburger Button */}
+            <button
+              className={`Mobile_menuToggle ${mobileMenuOpen ? 'is-active' : ''}`}
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-label="Toggle navigation menu"
+            >
+              <span className="Mobile_toggleLine"></span>
+              <span className="Mobile_toggleLine"></span>
+            </button>
+          </div>
+        </div>
+
+        {/* Mobile Slide-down Overlay */}
+        <div className={`Mobile_menuOverlay ${mobileMenuOpen ? 'is-open' : ''}`}>
+          <div className="Mobile_menuContent">
+            <ul className="Mobile_list">
+              <li>
+                <a href="#work" onClick={closeMobileMenu} className="Mobile_navLink">
+                  <span>Work</span>
+                  <ArrowIcon />
+                </a>
+              </li>
+              <li>
+                <a href="#services" onClick={closeMobileMenu} className="Mobile_navLink">
+                  <span>Services</span>
+                  <ArrowIcon />
+                </a>
+              </li>
+              <li>
+                <a href="#culture" onClick={closeMobileMenu} className="Mobile_navLink">
+                  <span>Culture</span>
+                  <ArrowIcon />
+                </a>
+              </li>
+              <li>
+                <a href="#contact" onClick={closeMobileMenu} className="Mobile_navLink">
+                  <span>Contact</span>
+                  <ArrowIcon />
+                </a>
+              </li>
+            </ul>
+
+            <div className="Mobile_menuFooter">
+              <p className="Mobile_footerEmail">hello@blazincode.com</p>
+              <p className="Mobile_footerCopyright">© 2026 Blazin Code</p>
             </div>
           </div>
         </div>
@@ -279,8 +298,8 @@ export default function App() {
                 <div className="col-desktop-5"></div>
                 <div className="col-4 col-desktop-7">
                   <div className="HeroHeader_taglineContent">
-                    <p className="HeroHeader_taglineTitle">CREATIVE PARTNER</p>
-                    <p className="HeroHeader_taglineSub">WE CRAFT DIGITAL PRODUCTS AND BRANDS</p>
+                    <p className="HeroHeader_taglineTitle">DIGITAL PRODUCT &amp; ENGINEERING STUDIO</p>
+                    <p className="HeroHeader_taglineSub">WE CRAFT HIGH-PERFORMANCE WEB EXPERIENCES</p>
                   </div>
                 </div>
               </div>
@@ -307,27 +326,7 @@ export default function App() {
           </div>
         </section>
 
-        {/* 5. Fullscreen Media Video Reel */}
-        <section className="FullscreenMedia_section">
-          <div className="Container_container">
-            <div
-              className="FullscreenMedia_ratioWrapper"
-              data-cursor="project"
-              data-cursor-text="PLAY"
-            >
-              <video
-                autoPlay
-                playsInline
-                muted
-                loop
-                crossOrigin="anonymous"
-                src="https://cdn.sanity.io/files/f3tpxs09/production/f7c533514e697633ae912646f5b296ee600340a9.mp4"
-              />
-            </div>
-          </div>
-        </section>
-
-        {/* 6. Intro Block (Interactive Title Carousel) */}
+        {/* 5. Intro Block (Interactive Title Carousel) */}
         <section className="IntroBlock_section" id="services">
           <div className="Container_container">
             <div className="Grid_row">
@@ -347,7 +346,7 @@ export default function App() {
               <div className="col-desktop-6"></div>
               <div className="col-3 col-desktop-3 IntroBlock_descCol">
                 <p className="Text_body_normal">
-                  We work closely with our clients to connect business goals with user needs.
+                  We partner with forward-thinking companies to transform complex requirements into sleek, category-leading digital solutions.
                 </p>
                 <a className="Link_link" href="#services" data-cursor="link">
                   <span className="Text_body">
@@ -382,7 +381,13 @@ export default function App() {
                 <ul>
                   {ARCHIVE_PROJECTS.map((item, idx) => (
                     <li key={idx} className="CaseStudiesList_item">
-                      <a href="#work" className="CaseStudiesList_link" data-cursor="link">
+                      <a
+                        href={item.url || '#work'}
+                        target={item.url && item.url !== '#work' ? '_blank' : undefined}
+                        rel={item.url && item.url !== '#work' ? 'noopener noreferrer' : undefined}
+                        className="CaseStudiesList_link"
+                        data-cursor="link"
+                      >
                         <h3 className="Text_h6 DashedLabel_labelWrapper">
                           <RollingText text={item.name} />
                           <span className="DashedLabel_suffixWrapper">
@@ -405,14 +410,14 @@ export default function App() {
             <div className="Grid_row">
               <div className="col-4 col-desktop-11">
                 <p className="Text_h4 TextBlockStandard_quote">
-                  <RollingText text="Blazin Code designs and builds" />{' '}
+                  <RollingText text="Blazin Code architects and builds" />{' '}
                   <span className="highlight-accent">
-                    <RollingText text="digital products, brands," />
+                    <RollingText text="high-conversion digital products, modern web apps," />
                   </span>{' '}
                   <span className="highlight-accent">
-                    <RollingText text="and experiences" />
+                    <RollingText text="and immersive brand platforms" />
                   </span>{' '}
-                  — with offices in Stockholm and Reykjavík.
+                  — partnering with ambitious founders &amp; global brands.
                 </p>
               </div>
             </div>
@@ -421,11 +426,11 @@ export default function App() {
               <div className="col-desktop-6"></div>
               <div className="col-3 col-desktop-3">
                 <p className="Text_body_normal">
-                  Our team fosters an inclusive spirit of craft, collaboration, and creativity.
+                  We blend high-end visual aesthetics, fluid 3D experiences, and rock-solid full-stack code to turn bold ideas into category-defining digital realities.
                 </p>
-                <a className="Link_link" href="#culture" data-cursor="link">
+                <a className="Link_link" href="#contact" data-cursor="link">
                   <span className="Text_body">
-                    <RollingText text="Culture" />
+                    <RollingText text="Start a Project" />
                   </span>
                   <ArrowIcon />
                 </a>
